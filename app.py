@@ -8,4 +8,4 @@ yExperience = np.array([[float(st.text_input("Enter Years of Experience: ","1"))
 
 sal = model.predict(yExperience)
 
-st.write(f'Hello, *World!* :sunglasses: . Predicted Salary for {yExperience} years of eXperenience is $ {sal}')
+st.write(f'Hello, *World!* :sunglasses: . Predicted Salary for {yExperience} years of experience is $ {sal}')
